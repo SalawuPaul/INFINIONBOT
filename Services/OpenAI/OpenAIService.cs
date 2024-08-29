@@ -27,7 +27,7 @@ namespace INFINIONGPT.Services.OpenAI
                      new ChatRequestSystemMessage("Be as friendly as possible"),
                      new ChatRequestUserMessage(message)
                  },
-                MaxTokens = 300,
+                MaxTokens = 1000,
             };
             if (chatMessages != null )
             {
